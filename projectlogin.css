@@ -1,0 +1,250 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    /* height: 15vh; */
+    gap: 15px;
+    background-color: rgb(0, 0, 72);
+    padding-left: 15px;
+    padding-top: 16px;
+    padding-right: 15px;
+    padding-bottom: 16px;
+    color: white;
+    /* width: 100%; */
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: solid 2px; */
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.links {
+    display: flex;
+    gap: 2vw;
+    font-size: 0.8rem;
+}
+
+.searchpanel {
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+    font-size: 1rem;
+    
+}
+
+
+input[type=search] {
+    width: vw;
+    height: 28px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    line-height: 28px;
+    font-size: small;
+}
+@media(min-width: 768px) and (max-width: 1024px) {
+  .links{
+    display: none;
+  }
+  #searchbar{
+    width: 230px;
+  }
+
+
+} 
+#searchbar::placeholder {
+    display: flex;
+    align-items: center;
+    font-size: small;
+    padding-bottom: 3px;
+
+
+}
+
+.header-login {
+    background-color: rgb(70, 70, 165);
+    border-radius: 10px;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header-signup {
+    background-color: rgb(70, 70, 165);
+    border-radius: 10px;
+   padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ @media (max-width:768px) {
+  .links{
+    display: none;
+  
+  }
+  #header-login{
+    display: none;
+  }
+  #header-signup{
+    display: none;
+  }
+ } 
+.text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    /* border: solid 2px; */
+    font-size: 18PX;
+}
+
+.whitetext {
+    color: white;
+}
+
+/* ___________________________________________________________________________________________ */ 
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(black,rgb(2, 2, 58));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+}
+.bigcontainer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 30px;
+
+    background-color: transparent;
+   
+}
+.container {
+    width: 350px;
+    height: 350px;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    border: 1px;
+    border-style: solid  ;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+
+}
+
+
+
+.loginbox {
+
+    padding-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid white ;
+    border-radius: 10px;
+    padding: 30px 10px;
+
+}
+
+
+input::placeholder {
+    color: rgb(0, 0, 72);
+
+}
+
+
+.loginbutton {
+    margin-top: 10px;
+    height: 30px;
+    border: none;
+    border: solid 1px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(70,70,165);
+    color: white;
+    transition: background 0.3s;
+}
+
+.loginbutton:hover {
+    background-color: rgb(0, 0, 72);
+}
+
+.colorwhite {
+    color: white;
+    text-decoration: none;
+}
+
+#USERNAME {
+    background-color: transparent;
+    padding: 5px 7px;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    /* border-bottom: 2px solid white;
+    border-left: 2px solid white; */
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+#USERNAME:focus{
+   
+    outline: none;
+}
+#USERNAME::placeholder{
+    color: white;
+}
+#PASSWORD {
+    background-color: transparent;
+    padding: 5px 7px;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    /* border-bottom: 2px solid white;
+    border-left: 2px solid white; */
+    width: 250px;
+    height: 30px;
+    box-shadow: none;
+    border-radius: 5px;
+}
+#PASSWORD:focus{
+   
+    outline: none;
+}
+#PASSWORD::placeholder{
+    color: white;
+}
+#searchbar {
+   outline: none;
+   background-color: white;
+    
+}
+
