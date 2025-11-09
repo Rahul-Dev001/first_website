@@ -126,11 +126,11 @@ input[type=search] {
     color: white;
 }
 
-/* ___________________________________________________________________________________________ */
+/* ___________________________________________________________________________________________ */ 
 
 body{
     min-height: 100vh;
-    background-color: rgb(70,70,165);
+    background-image: linear-gradient(black,rgb(2, 2, 58));
     background-repeat: no-repeat;
     background-attachment: fixed;
   background-size: cover;
@@ -151,7 +151,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 20px;
+    padding-top: 50px;
     border: 1px;
     border-style: solid  ;
     border-color: rgb(255, 255, 255);

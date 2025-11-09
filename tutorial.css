@@ -9,7 +9,7 @@ a {
     text-decoration: none;
 
 }
-
+ 
 header {
     display: flex;
     flex-direction: column;
@@ -124,4 +124,23 @@ input[type=search] {
 
 .whitetext {
     color: white;
+}
+/* ____________________________________________________ */
+.padding{
+    margin: 15px;
+    padding: 5px;
+}
+.codes{
+    /* display: flex; */
+    width: 80vw;
+}
+.paddingleft{
+    padding-left: 25px;
+}
+.footer {
+  background-color: rgb(0, 0, 72);
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
 }
