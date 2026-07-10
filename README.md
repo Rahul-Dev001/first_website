@@ -6,3 +6,4 @@ This project focuses on creating an engaging landing page for an online coding e
 📌 Project Overview
 
 This project is a frontend-only website designed to showcase an online coding education platform.
+We have used the following things in it :-
